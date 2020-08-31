@@ -25,7 +25,7 @@ Don't use something like  `Breadcrumb Navigation`  for the aria-label as this wo
 
 ![button](./button.png)
 
-```
+```css
 <a href="#" class="button">
   <span class="button__prepend">
      🚀
@@ -53,7 +53,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint perspic
 
 Button
 
-```
+```css
 <article class="card">
   <aside class="card__aside">
     <figure class="card__figure">
@@ -95,7 +95,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sint perspic
 
 Button
 
-```
+```css
 <article class="card">
   <div class="card__header">
     <figure class="card__figure">
@@ -136,7 +136,7 @@ Button
     -   Point 3.3
 -   four
 
-```
+```css
 <ul class="list">
   <li class="list__item">one</li>
   <li class="list__item">two</li>
@@ -161,7 +161,7 @@ Something like  `counter-list`,  `article-list`,  `customer-list`.
 
 ![navigation](./navigation.png)
 
-```
+```css
 <nav class="main-nav" aria-label="Main">
   <ul class="main-nav__list">
     <li class="main-nav__item">
@@ -181,7 +181,7 @@ Something like  `counter-list`,  `article-list`,  `customer-list`.
 
 ![tabs](./tab.png)
 
-```
+```css
 <div class="tabs">
   <ul class="tabs__list" role="tablist">
     <li class="tabs__item" role="presentation">
@@ -227,7 +227,7 @@ I have to admit that I sometimes omit the class for some elements and address th
 
 ![checkbox](./checkbox.png)
 
-```
+```css
 <label for="MyCheckbox" class="checkbox">
   <input class="checkbox__input" type="checkbox" id="MyCheckbox">
   <div class="checkbox__body">
@@ -248,7 +248,7 @@ My Checkbox
 
 ![mycheckbox](./custom-checkbox.png)
 
-```
+```css
 <label for="MyCustomCheckbox" class="custom-checkbox">
   <input class="custom-checkbox__input" type="checkbox" id="MyCustomCheckbox">
   <svg class="custom-checkbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
@@ -271,7 +271,7 @@ Label:
 
 This is a help text. Could be a warning, too. For different colors you should use modifier classes.
 
-```
+```css
 <div class="input-group">
   <label for="myInput" class="input-group__label">Label:</label>
   <input type="text" id="myInput" class="input-group__input">
@@ -296,7 +296,7 @@ To make it easier to distinguish them from the others, you can use a prefix (`l-
 
 ![impostor](./impostor.png)
 
-```
+```css
 <div class="imposter">
   <div></div>
 </div>
@@ -310,7 +310,7 @@ The impostor creates a container where all child elements are positioned in the 
 
 ![sidebar](./sidebar.png)
 
-```
+```css
 <div class="sidebar">
   <aside></aside>
   <div></div>
@@ -330,7 +330,7 @@ The Sidebar-Block assumes, that it contains exactly two child elements where the
 
 ![stack](./stack.png)
 
-```
+```css
 <div class="stack">
   <div></div>
   <div></div>
